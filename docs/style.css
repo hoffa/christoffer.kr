@@ -2,8 +2,27 @@ body {
     font-family: sans-serif;
     margin: 2em;
     line-height: 1.5;
+    color: black;
+    background-color: white;
+}
+
+a {
+    text-underline-offset: 0.3em;
+    color: blue;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background-color: black;
+    }
+
+    a {
+        color: dodgerblue;
+    }
 }
