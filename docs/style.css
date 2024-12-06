@@ -8,7 +8,12 @@ body {
 
 a {
     text-underline-offset: 0.3em;
+    text-decoration-thickness: 0.05em;
     color: blue;
+}
+
+a:hover {
+    text-decoration-thickness: 0.1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
